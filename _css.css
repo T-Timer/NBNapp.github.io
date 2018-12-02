@@ -1,0 +1,98 @@
+		
+		div.phone
+		{
+			width: 550px;
+			height: 840px;
+			border: outset #484848 4px;
+			border-radius: 35px;
+			position: absolute;
+			left: 30%;
+			
+			
+		}
+		div.NAV
+		{
+		height: 200px;
+		width:100%;
+		margin-top: 38px;
+		margin-left: 20%;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 170px;  
+		}
+		div.NAV
+		{
+		line-height: 70px;  
+		}
+		.NAV ul
+		{
+		list-style-type: none;
+		height: 100%
+		/*width: 550px;*/		
+		}
+
+
+		.NAV ul li
+		{
+		border-radius: 35px;
+		border: outset #484848 4px;		
+		margin: 3px;
+		float: left;	
+		background-color: orange;
+		width: 240px;
+		height: 100%; 
+		font-family: "verdana";
+		font-size: 35px;
+
+		}
+		.NAV ul li.overflow 
+		{
+			word-wrap: break-word;
+			white-space: pre-line;
+			font-size: 24px;
+		}
+		.NAV ul li.FTTP
+		{
+			background-color: #80dfff;
+		}
+		.NAV ul li.FTTC
+		{
+			background-color: #bf80ff;
+		}
+		.NAV ul li.yes
+		{
+			background-color:  #33ff77;
+			font-size: 28px;
+		}
+		.NAV ul li.no
+		{
+			background-color: #ff4d4d;
+			font-size: 28px;
+		}
+		p
+		{
+		font-family: "verdana";
+		font-size: 25px;
+		text-align: center;
+		}
+		p.white
+		{
+			color: white;
+		}
+				
+		h1
+		{
+			font-family: "verdana";
+			text-align: center;
+		}
+		h1.white
+		{
+			color: white;
+		}
+		
+		//orange bg
+		//no is red, yes is green bg 
+		//middle div
+		//phone cover div, round corners + $30 
+		//almost double the size each box- font size increase. 
+		//verdana 
